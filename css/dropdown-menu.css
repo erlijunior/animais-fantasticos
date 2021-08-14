@@ -46,3 +46,12 @@
 .dropdown-menu li a:hover {
   color: #FFF;
 }
+
+@media (max-width: 700px) {
+  [data-dropdown] .dropdown-menu,
+  [data-dropdown].active .dropdown-menu {
+    top: 0;
+    display: block;
+    animation: show-up 0.3s forwards;
+  }
+}
